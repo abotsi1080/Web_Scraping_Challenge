@@ -1,7 +1,7 @@
 # Web_Scraping_Challenge
 # Mission To Mars
 
-![Mission_to_Mars](Missions_to_Mars/screenshots/Mission_to_Mars.jpg.png)
+![Mission_to_Mars](Missions_to_Mars/screenshots/Mission_to_Mars.jpeg)
 
 ## Background
 Known as the Red Planet because of the iron in the soil, Mars is the fourth planet from the sun. Mars has two moons namely, Phobos and Deimos. With the nature of the soil on Mars, the planet can have huge dust storms that can last for months and can cover the enire planet. 
