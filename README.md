@@ -1,6 +1,8 @@
 # Web_Scraping_Challenge
 # Mission To Mars
 
+![mission_to_mars](Images/mission_to_mars.png)
+
 ## Background
 Known as the Red Planet because of the iron in the soil, Mars is the fourth planet from the sun. Mars has two moons namely, Phobos and Deimos. With the nature of the soil on Mars, the planet can have huge dust storms that can last for months and can cover the enire planet. 
 In this project, I built a web application that is used to scraped different sites with information and data relating to Mars. The information scraped is displaced in a single HTML page for viewing. The different stages or steps involved in this project are outlined below.
