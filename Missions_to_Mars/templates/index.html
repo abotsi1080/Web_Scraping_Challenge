@@ -105,19 +105,19 @@
         <div class="row">
             <div class="col col-12">
                 <h2>Latest Mars News</h2>
-                <h3>{{news_title}}</h3>
-                {{news_p}}
+                <h3>{{mars.news_title}}</h3>
+                {{mars.news_p}}
             </div>
         </div>
         <div class="row">
             <div class="col col-8">
                 <h2>Featured Mars Image</h2>
-                <img src={{featured_image_url}} alt="Featured image">
+                <img src={{mars.featured_image_url}} alt="Featured image">
             </div>
             <div class="col col-4">
                 <div class="boxborder">
                     <h3>Mars Facts</h3>
-                    {{mars_fact_table}}
+                    {{mars.fact_table|safe}}
                 </div>
                 <br>
                 <h3></h3>
@@ -132,11 +132,11 @@
         </div>
         <hr>
         <div class="row">
-            {% for image_url in marspage.hemisphere_image_urls %}
+            {% for image_url in mars.hemisphere_images %}
             <div class="col col-6">
                 <div class="boxmargin">
-                    <img src={{hemisphere_image_urls}} alt={{hemisphere_image_urls}}>
-                    <h3>{{hemisphere_images}</h3>
+                    <img src={{image_url[ "img_url"]}} alt={{image_url[ "title"]}}>
+                    <h3>{{image_url["title"]}}</h3>
                 </div>
             </div>
             {% endfor %}

@@ -20,7 +20,7 @@ def init_browser():
 
 def scrape():
     browser=init_browser()
-    mars_dict={}
+    mars_data={}
     ### NASA Mars News
 
     # Defining the url of page to be scraped
@@ -100,9 +100,9 @@ def scrape():
         browser.back()
     hemisphere_image_urls 
 
-
+    mars_data = {}
     # Create dictionary for all info scraped from sources above
-    mars_dict = {
+    mars_data = {
         "news_title":news_title,
         "news_p":news_p,
         "featured_image_url":featured_image_url,
@@ -111,4 +111,6 @@ def scrape():
     }
     # Close the browser after scraping
     browser.quit()
-    return mars_dict
+
+    # Return results
+    return mars_data
